@@ -7,6 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		final Logger LOGGER = LoggerFactory.getLogger(Main.class); 
+		LOGGER.info("Logging the class: ".concat(LOGGER.getClass().toString()));
 	}
 
 }
